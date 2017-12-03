@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Preview</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <p class="title">Image preview</p>
+        <p class="info">Upload your image and drag and drop to crop</p>
+    </div>
+
+    <input type="file" onchange="previewImage()">
+    <br>
+    <img src="" height="200">
+    <canvas height="200"></canvas>
+    <a href="#" download="cropped.png">Download</a>
+</div>
+
+<script src="src/index.js"></script>
+</body>
+</html>
